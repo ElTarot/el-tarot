@@ -13,6 +13,9 @@ I would like more spreads, the celtic cross to begin with.
 ** TODO User shuffling after the deck
 To simulate shuffling of a deck the user can make a random seed by
 wiggling the mouse or whatever.
+*** TODO expose seed_random to lisp
+(random t) does a hard-coded seed but for better shuffling we need to
+expose seed_random to lisp
 
 ** TODO graphic spreads
 Insert card images in a buffer in the shape of the spread being
