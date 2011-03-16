@@ -13,7 +13,7 @@
 
 ;;; Code:
 
-(defvar tarot-deck [["Fool"               "La Follie ou l'Alchemiste"]
+(defvar tarot-deck-1 [["Fool"               "La Follie ou l'Alchemiste"]
                     ["Magician"           "Le Magicien ou le Bateleur"]
                     ["High Priestess"     "Repos"]
                     ["Empress"            "Les Astres"]
@@ -92,6 +92,30 @@
                     ["Queen of Pentacles"]
                     ["King of Pentacles"]])
 
+(defvar tarot-deck-2 [["Fool"               "La Follie ou l'Alchemiste"]
+                    ["Magician"           "Le Magicien ou le Bateleur"]
+                    ["High Priestess"     "Repos"]
+                    ["Empress"            "Les Astres"]
+                    ["Emperor"            "Les Ouiseaux et les Poissons"]
+                    ["Hierophant"         "Le Grand pretre"]
+                    ["Lovers"             "Le Chaos"]
+                    ["Chariot"            "Le Despote africain"]
+                    ["Strength"           "La Force"]
+                    ["Hermit"             "Le Capucin"]
+                    ["Wheel of Fortune"   "La Roue de Fortune"]
+                    ["Justice"            "La Justice"]
+                    ["Hanged Man"         "La Prudence"]
+                    ["Death"              "La Mort"]
+                    ["Temperance"         "La Temperance"]
+                    ["Devil"              "Le Diable"]
+                    ["Tower"              "Le Temple Foudroye"]
+                    ["Star"               "La Ciel"]
+                    ["Moon"               "Les Plantes"]
+                    ["Sun"                "La Lumiere"]
+                    ["Judgement"          "Le Jugement Dernier"]
+                    ["World"              "L'homme et les Quadrupedes"]
+])
+
 (defun random-aref (array)
   (let ((index (random (length array))))
     (values (aref array index) index)))
@@ -121,6 +145,11 @@
           (setq pack (delete (aref pack index) pack))))
     stack))
 
+(defun tarot-choose-deck ()
+  (interactive)
+  ;;todo
+  (setq tarot-deck tarot-deck-2))
+
 (defun tarot-spread ()
   (interactive)
   (pop-to-buffer (get-buffer-create "*Spread*"))
@@ -130,6 +159,27 @@
                   "Present :"
                   "Future  :"
                   "Outcome :")))
+    (dolist (card stack)
+      (insert (car import) " ")
+      (setq import (cdr import))
+      (insert (read-tarot-card card) "\n"))))
+
+(defun tarot-spread-celtic-cross ()
+  (interactive)
+  (pop-to-buffer (get-buffer-create "*Spread*"))
+  (erase-buffer)
+  (let ((stack (tarot-cards 10))
+        (import '("Present             :"
+                  "Immediate Challenge :"
+                  "Distant Past        :"
+                  "Recent Past         :"
+                  "Best Outcome        :"
+                  "Immediate Future    :"
+                  "Factors             :"
+                  "External Influences :"
+                  "Hopes and Fears     :"
+                  "Final Outcome       :"
+                  )))
     (dolist (card stack)
       (insert (car import) " ")
       (setq import (cdr import))

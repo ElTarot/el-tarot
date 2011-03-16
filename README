@@ -1,0 +1,28 @@
+* Joakims notes
+My intent is to work with Joseph to improve tarot.el.
+Here are the things I'd like to do:
+
+** TODO Multiple decks
+Initially just the standard deck and a deck consisting of only the
+major arcana.
+
+
+** TODO Multiple spreads
+I would like more spreads, the celtic cross to begin with.
+
+** TODO User shuffling after the deck
+To simulate shuffling of a deck the user can make a random seed by
+wiggling the mouse or whatever.
+
+** TODO graphic spreads
+Insert card images in a buffer in the shape of the spread being
+used. This shouldn't be too hard if one compromises on the layouts a
+bit.
+
+*** TODO allow different card images
+I have some home made cards I'd like to use and one can also dowload
+card images from Wikipedia. Maybe even Pokemon cards, why not :)
+
+** TODO publish tarot.el to ELPA
+The main ELPA repo requires FSF copyright but PD ought to be fine. The
+emacs maintainers need to be consulted.
