@@ -29,3 +29,8 @@ card images from Wikipedia. Maybe even Pokemon cards, why not :)
 ** TODO publish tarot.el to ELPA
 The main ELPA repo requires FSF copyright but PD ought to be fine. The
 emacs maintainers need to be consulted.
+
+** TODO look up cards in wikipedia
+http://en.wikipedia.org/wiki/The_Magician_(Tarot_card)
+http://en.wikipedia.org/wiki/Major_Arcana
+http://en.wikipedia.org/wiki/Minor_Arcana
