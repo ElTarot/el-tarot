@@ -150,39 +150,45 @@
   ;;todo
   (setq tarot-deck tarot-deck-2))
 
-(defun tarot-spread ()
-  (interactive)
-  (pop-to-buffer (get-buffer-create "*Spread*"))
-  (erase-buffer)
-  (let ((stack (tarot-cards 4))
-        (import '("Past    :"
-                  "Present :"
-                  "Future  :"
-                  "Outcome :")))
-    (dolist (card stack)
-      (insert (car import) " ")
-      (setq import (cdr import))
-      (insert (read-tarot-card card) "\n"))))
+(defvar tarot-spreads
+  '(( "simple"
+      ( "Past"
+        "Present"
+        "Future"
+        "Outcome"))
 
-(defun tarot-spread-celtic-cross ()
-  (interactive)
+    ( "celtic"
+        ("Present"
+         "Immediate Challenge"
+         "Distant Past"
+         "Recent Past"
+         "Best Outcome"
+         "Immediate Future"
+         "Factors"
+         "External Influences"
+         "Hopes and Fears"
+         "Final Outcome"
+         )))
+  )
+(defun tarot-formatted-spread-texts ( spread-name)
+  (let* ( (maxlen (apply 'max (mapcar 'length (cadr (assoc spread-name tarot-spreads))))))
+    (mapcar (lambda (x) (format (concat  "%-" (number-to-string  maxlen) "s :") x)) (cadr (assoc spread-name tarot-spreads))))
+  )
+
+
+(defun tarot-spread (spread-name)
+  (interactive "sspread name:") ;;TODO completion TODO handle deck selection
+  (random t);;shuffling the deck is important TODO
   (pop-to-buffer (get-buffer-create "*Spread*"))
   (erase-buffer)
-  (let ((stack (tarot-cards 10))
-        (import '("Present             :"
-                  "Immediate Challenge :"
-                  "Distant Past        :"
-                  "Recent Past         :"
-                  "Best Outcome        :"
-                  "Immediate Future    :"
-                  "Factors             :"
-                  "External Influences :"
-                  "Hopes and Fears     :"
-                  "Final Outcome       :"
-                  )))
+  (let* (
+        (import (tarot-formatted-spread-texts spread-name))
+        (stack (tarot-cards (length import))) 
+        )
     (dolist (card stack)
       (insert (car import) " ")
       (setq import (cdr import))
-      (insert (read-tarot-card card) "\n"))))
+      (insert (read-tarot-card card) "\n")))
+  )
 
 ;;; tarot.el ends here
