@@ -122,8 +122,9 @@
 
 (defun read-tarot-card (card)
   (let ((len (length card)))
-      (if (= len 2)
-          (concat (aref card 0) " (" (aref card 1) ")")
+    (if (>= len 2)
+        (concat (aref card 0) " (" (aref card 1) ") "
+                (if (>= len 3) (org-make-link-string (aref card 2)  "wikipedia") ) )
         (aref card 0))))
 
 (defun tarot-card ()
@@ -180,6 +181,7 @@
   (interactive "sspread name:") ;;TODO completion TODO handle deck selection
   (random t);;shuffling the deck is important TODO
   (pop-to-buffer (get-buffer-create "*Spread*"))
+  (org-mode)
   (erase-buffer)
   (let* (
         (import (tarot-formatted-spread-texts spread-name))
