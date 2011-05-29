@@ -1,6 +1,7 @@
 ;;; tarot.el -- draw a random tarot card
 
 ;; Copyright (C) 2007, 2011 Joseph Corneli <holtzermann17@...>
+;; Copyright (C) 2011 Jokim Verona <joakim@verona.se>
 ;; Notice: Copyright transfered to public domain wherever applicable.
 
 ;; Time-stamp: <2011-02-07 01:03:35 joe>
@@ -114,7 +115,33 @@
                                         ["Sun"                "La Lumiere" "http://en.wikipedia.org/wiki/The_Sun_(Tarot_card)"]
                                         ["Judgement"          "Le Jugement Dernier" "http://en.wikipedia.org/wiki/Judgment_(Tarot_card)"]
                                         ["World"              "L'homme et les Quadrupedes" "http://en.wikipedia.org/wiki/The_World_(Tarot_card)"]
-                                        ])))
+                                        ])
+
+                      ;;separate just because the deck is WIP
+                      ("javetarot"    [["Fool"               "La Follie ou l'Alchemiste" "http://en.wikipedia.org/wiki/The_Fool_(Tarot_card)"]
+                                        ["Magician"           "Le Magicien ou le Bateleur" "http://en.wikipedia.org/wiki/The_Magician_(Tarot_card)"]
+                                        ["High Priestess"     "Repos" "http://en.wikipedia.org/wiki/The_High_Priestess_(Tarot_card)"]
+                                        ["Empress"            "Les Astres" "http://en.wikipedia.org/wiki/The_Empress_(Tarot_card)"]
+                                        ["Emperor"            "Les Ouiseaux et les Poissons" "http://en.wikipedia.org/wiki/The_Emperor_(Tarot_card)"]
+                                        ["Hierophant"         "Le Grand pretre" "http://en.wikipedia.org/wiki/The_Hierophant_(Tarot_card)"]
+                                        ["Lovers"             "Le Chaos" "http://en.wikipedia.org/wiki/The_Lovers_(Tarot_card)"]
+                                        ["Chariot"            "Le Despote africain" "http://en.wikipedia.org/wiki/The_Chariot_(Tarot_card)"]
+                                        ["Strength"           "La Force" "http://en.wikipedia.org/wiki/The_Chariot_(Tarot_card)"]
+                                        ["Hermit"             "Le Capucin" "http://en.wikipedia.org/wiki/The_Hermit_(Tarot_card)"]
+                                        ["Wheel of Fortune"   "La Roue de Fortune" "http://en.wikipedia.org/wiki/Wheel_of_Fortune_(Tarot_card)"]
+                                        ["Justice"            "La Justice" "http://en.wikipedia.org/wiki/Strength_(Tarot_card)"]
+                                        ["Hanged Man"         "La Prudence" "http://en.wikipedia.org/wiki/The_Hanged_Man_(Tarot_card)"]
+                                        ["Death"              "La Mort" "http://en.wikipedia.org/wiki/The_Hanged_Man_(Tarot_card)"]
+                                        ["Temperance"         "La Temperance" "http://en.wikipedia.org/wiki/Temperance_(Tarot_card)"]
+                                        ["Devil"              "Le Diable" "http://en.wikipedia.org/wiki/The_Devil_(Tarot_card)"]
+                                        ["Tower"              "Le Temple Foudroye" "http://en.wikipedia.org/wiki/The_Tower_(Tarot_card)"]
+                                        ["Star"               "La Ciel" "http://en.wikipedia.org/wiki/The_Star_(Tarot_card)"]
+                                        ["Moon"               "Les Plantes" "http://en.wikipedia.org/wiki/The_Moon_(Tarot_card)"]
+                                        ["Sun"                "La Lumiere" "http://en.wikipedia.org/wiki/The_Sun_(Tarot_card)"]
+                                        ["Judgement"          "Le Jugement Dernier" "http://en.wikipedia.org/wiki/Judgment_(Tarot_card)"]
+                                        ["World"              "L'homme et les Quadrupedes" "http://en.wikipedia.org/wiki/The_World_(Tarot_card)"]
+                                        ])
+                      ))
 
 (defun random-aref (array)
   (let ((index (random (length array))))
@@ -193,7 +220,33 @@
     (dolist (card stack)
       (insert (car import) " ")
       (setq import (cdr import))
-      (insert (read-tarot-card card) "\n")))
+      (insert (read-tarot-card card) )
+      
+      ;;  (insert (format  " [[file:tarot_of_marseilles/%s.jpg]]" (aref card 0) ))
+        (insert (format  " [[file:jave_tarot/%s.svg]]" (aref card 0) ))
+      (insert "\n")
+      ))
   )
 
+;;;;
+
+
+(defun tarot-get-images ()
+  (interactive)
+  (loop for cardno from 1 to 21 by 1 do
+        (with-current-buffer (skip-http-headers
+                              (url-retrieve-synchronously  (format "http://upload.wikimedia.org/wikipedia/commons/1/1d/Jean_Dodal_Tarot_trump_%s.jpg" cardno))
+                              )
+          (write-file (format "/tmp/t%s.jpg" cardno))))
+  )
+
+(defun skip-http-headers (buffer)
+  "Remove HTTP headers from BUFFER, and return it.
+Assumes headers are indeed present!"
+  (with-current-buffer buffer
+    (widen)
+    (goto-char (point-min))
+    (search-forward "\n\n")
+    (delete-region (point-min) (point))
+    buffer))
 ;;; tarot.el ends here

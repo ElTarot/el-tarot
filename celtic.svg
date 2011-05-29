@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   id="svg1891"
+   version="1.1"
+   inkscape:version="0.48+devel r10019 custom"
+   sodipodi:docname="celtic.svg">
+  <defs
+     id="defs1893">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective3666" />
+    <inkscape:perspective
+       id="perspective2857"
+       inkscape:persp3d-origin="150 : 120 : 1"
+       inkscape:vp_z="300 : 180 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 180 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.56574313"
+     inkscape:cx="530.21224"
+     inkscape:cy="381.12031"
+     inkscape:current-layer="spread"
+     id="namedview1895"
+     showgrid="false"
+     inkscape:window-width="1098"
+     inkscape:window-height="667"
+     inkscape:window-x="114"
+     inkscape:window-y="57"
+     inkscape:window-maximized="0"
+     units="mm"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata1897">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="bg"
+     inkscape:label="background"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect2353"
+       width="1049.6405"
+       height="747.68915"
+       x="5.3919892"
+       y="-5.3919892" />
+  </g>
+  <g
+     inkscape:label="cards"
+     inkscape:groupmode="layer"
+     id="spread"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       width="92.789513"
+       height="131.70126"
+       id="C1"
+       x="92.607368"
+       y="563.33325" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       inkscape:transform-center-y="-27.548571"
+       inkscape:transform-center-x="-61.58102"
+       transform="matrix(0.99998442,-0.00558163,0.00558163,0.99998442,0,0)"
+       y="333.25397"
+       x="377.79929"
+       id="C2"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       inkscape:transform-center-y="-48.418081"
+       inkscape:transform-center-x="-40.34838"
+       y="526.4281"
+       x="380.02032"
+       id="C3"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       inkscape:transform-center-y="118.35531"
+       inkscape:transform-center-x="-215.19143"
+       y="337.41205"
+       x="122.15966"
+       id="C4"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       inkscape:transform-center-y="247.47015"
+       inkscape:transform-center-x="88.766459"
+       y="122.94421"
+       x="380.02032"
+       id="C5"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       inkscape:transform-center-y="-104.90579"
+       inkscape:transform-center-x="67.247365"
+       y="332.10928"
+       x="618.25128"
+       id="C6"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       y="565.88391"
+       x="809.02399"
+       id="C7"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       y="388.35104"
+       x="809.02399"
+       id="C8"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       y="210.8181"
+       x="809.02399"
+       id="C9"
+       height="131.70126"
+       width="92.789513" />
+    <image
+       sodipodi:absref="/home/joakim/current/git/el-tarot/techtarot/Strength.svg"
+       xlink:href="techtarot/Strength.svg"
+       y="33.285175"
+       x="809.02399"
+       id="C10"
+       height="131.70126"
+       width="92.789513" />
+    <text
+       xml:space="preserve"
+       style="font-size:28.44529533000000043px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525000000096%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="74.23864"
+       y="31.757065"
+       id="text2637"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2639"
+         x="74.23864"
+         y="31.757065">Celtic Cross</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="84.844154"
+       y="719.34827"
+       id="text2393"
+       sodipodi:linespacing="107%"><tspan
+         sodipodi:role="line"
+         id="tspan2395"
+         x="84.844154"
+         y="719.34827">Present</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="318.83698"
+       y="496.63235"
+       id="text2397"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2399"
+         x="318.83698"
+         y="496.63235">Immediate Challenge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="365.6192"
+       y="682.22894"
+       id="text2401"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2403"
+         x="365.6192"
+         y="682.22894">Distant Past</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="107.82278"
+       y="498.39996"
+       id="text2405"
+       sodipodi:linespacing="107%"><tspan
+         sodipodi:role="line"
+         id="tspan2407"
+         x="107.82278"
+         y="498.39996">Recent Past</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="354.96979"
+       y="282.75436"
+       id="text2409"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2411"
+         x="354.96979"
+         y="282.75436">Best Outcome</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="583.30359"
+       y="494.86478"
+       id="text2413"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2415"
+         x="583.30359"
+         y="494.86478">Immediate Future</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="783.05548"
+       y="192.60744"
+       id="text2417"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2419"
+         x="783.05548"
+         y="192.60744">Final Outcome</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="769.784"
+       y="372.4339"
+       id="text2421"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2423"
+         x="769.784"
+         y="372.4339">Hopes and Fears</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="758.89532"
+       y="547.8924"
+       id="text2425"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2427"
+         x="758.89532"
+         y="547.8924">External Influences</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="819.07111"
+       y="722.88342"
+       id="text2429"
+       sodipodi:linespacing="107.00001%"><tspan
+         sodipodi:role="line"
+         id="tspan2431"
+         x="819.07111"
+         y="722.88342">Factors</tspan></text>
+  </g>
+</svg>

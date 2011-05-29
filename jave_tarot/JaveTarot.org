@@ -1,0 +1,31 @@
+* JAVE tarot
+Traditional Tarot decks evolved through a very long timespan to form
+what is essentialy a symbolic archetype language. 
+
+I find Tarot to be an interesting past-time, but I've often felt the
+symbolic language to be based on cultural references that are not
+valid for me. The archetypes are very sound but I would like different
+representations more intuitive to me.
+
+The Jave Tarot is my attempt at this. 
+
+Heres some of the guiding principles I used:
+
+- The basic archetypes of the Major Arcana should be preserved
+
+- The themes are symbolic futurism since thats what I like to draw
+
+- A pretty rough art-style was used for immediacy(but I keep fiddling
+  with the artwork so this property might get lost eventually)
+
+- I'm an Atheist so Christian imagery is generally replaced with
+  motifs from science/mathematics/philosophy/whatever
+
+- My symbolism is a bit more streamlined than the traditional. All the
+  little details on a traditional card are fun but I've chosen to
+  strengthen the main archetype at the cost of the alternative
+  interpretations.
+
+If you agree with the above, you might like the Jave Tarot!
+
+/Joakim

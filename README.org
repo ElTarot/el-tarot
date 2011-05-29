@@ -22,9 +22,20 @@ Insert card images in a buffer in the shape of the spread being
 used. This shouldn't be too hard if one compromises on the layouts a
 bit.
 
+There are currently two variants. 
+- org mode inlined images
+- a svg implementation 
+
+The SVG implementation has more graphical promise while the org
+variant is simpler and allows org mode integration.
+
 *** TODO allow different card images
 I have some home made cards I'd like to use and one can also dowload
 card images from Wikipedia. Maybe even Pokemon cards, why not :)
+
+currently I include two decks:
+- scans of the traditional Tarot de Marseille
+- The Jave Tarot which is my personal attempt at a deck
 
 ** TODO publish tarot.el to ELPA
 The main ELPA repo requires FSF copyright but PD ought to be fine. The
